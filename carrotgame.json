@@ -1824,6 +1824,20 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/96b06f7e489cb39d4b04f5f97d0a9c50c34e4ee9d938f5334fcf56be578de130_Letter Key_Z.png",
           "name": "Letter Key_Z.png"
         }
+      },
+      {
+        "file": "assets/Shining Stars.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "cc1deb2c10ebc01dcd7f40cbcf8a493164c41ac4a77da5b43ae08bd8082dd134_Shining Stars.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Romantic Sentimental/cc1deb2c10ebc01dcd7f40cbcf8a493164c41ac4a77da5b43ae08bd8082dd134_Shining Stars.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -6786,6 +6800,18 @@
                 "Scale",
                 "=",
                 "0.25"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "cc1deb2c10ebc01dcd7f40cbcf8a493164c41ac4a77da5b43ae08bd8082dd134_Shining Stars.aac",
+                "yes",
+                "30",
+                ""
               ]
             }
           ],
