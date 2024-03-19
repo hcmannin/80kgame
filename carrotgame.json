@@ -1826,20 +1826,6 @@
         }
       },
       {
-<<<<<<< Updated upstream
-        "file": "assets/Shining Stars.aac",
-        "kind": "audio",
-        "metadata": "",
-        "name": "cc1deb2c10ebc01dcd7f40cbcf8a493164c41ac4a77da5b43ae08bd8082dd134_Shining Stars.aac",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Romantic Sentimental/cc1deb2c10ebc01dcd7f40cbcf8a493164c41ac4a77da5b43ae08bd8082dd134_Shining Stars.aac",
-          "name": "gdevelop-asset-store"
-        }
-=======
         "alwaysLoaded": false,
         "file": "Screenshot 2023-11-30 at 11.46.42 AM.png",
         "kind": "image",
@@ -1914,7 +1900,16 @@
         "name": "Screenshot 2024-03-18 at 9.32.29 PM.png",
         "smoothed": true,
         "userAdded": true
->>>>>>> Stashed changes
+      },
+      {
+        "file": "80kmusic.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "80kmusic.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -7084,13 +7079,13 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlayMusic"
               },
               "parameters": [
                 "",
-                "cc1deb2c10ebc01dcd7f40cbcf8a493164c41ac4a77da5b43ae08bd8082dd134_Shining Stars.aac",
+                "80kmusic.aac",
                 "yes",
-                "30",
+                "50\n",
                 ""
               ]
             }
@@ -7795,6 +7790,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Shopping",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8595,7 +8591,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "grow carrots",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8697,7 +8692,7 @@
                     "planting_seed",
                     "timer",
                     ">=",
-                    "400"
+                    "800"
                   ]
                 }
               ],
@@ -8748,7 +8743,7 @@
                     "planting_seed",
                     "timer",
                     "<=",
-                    "400"
+                    "800"
                   ]
                 }
               ],
@@ -17130,6 +17125,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -17140,10 +17137,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 200,
-              "name": "Pathfinding",
               "rotateObject": true,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             }
           ]
         },
