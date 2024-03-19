@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "start screen",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -771,7 +771,7 @@
         "alwaysLoaded": false,
         "file": "assets/Menu Popup Background2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Menu Popup Background2.png\"}",
         "name": "Menu Popup Background",
         "smoothed": true,
         "userAdded": false
@@ -1826,6 +1826,7 @@
         }
       },
       {
+<<<<<<< Updated upstream
         "file": "assets/Shining Stars.aac",
         "kind": "audio",
         "metadata": "",
@@ -1838,6 +1839,82 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Romantic Sentimental/cc1deb2c10ebc01dcd7f40cbcf8a493164c41ac4a77da5b43ae08bd8082dd134_Shining Stars.aac",
           "name": "gdevelop-asset-store"
         }
+=======
+        "alwaysLoaded": false,
+        "file": "Screenshot 2023-11-30 at 11.46.42 AM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2023-11-30 at 11.46.42 AM.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Free Range Farm Adventures_ Intro Story-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Free Range Farm Adventures_ Intro Story-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Free Range Farm Adventures_ Intro Story0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Free Range Farm Adventures_ Intro Story0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Free Range Farm Adventures_ Intro Story1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Free Range Farm Adventures_ Intro Story1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_purple space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_purple space.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/9bca92da2d3a7e7c50e16c4a59f794907d14514d5a109febdeb101e82888979c_tiled_purple space.png",
+          "name": "tiled_purple space.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Free Range Farm Adventures_ Intro Story-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Free Range Farm Adventures_ Intro Story-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Free Range Farm Adventures_ Intro Story-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Free Range Farm Adventures_ Intro Story-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-03-18 at 9.32.29 PM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-03-18 at 9.32.29 PM.png",
+        "smoothed": true,
+        "userAdded": true
+>>>>>>> Stashed changes
       }
     ],
     "resourceFolders": []
@@ -2102,7 +2179,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 1.157621108680405,
+        "zoomFactor": 0.6587406414736554,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2153,13 +2230,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 400,
+          "depth": 1,
+          "height": 868,
           "layer": "",
           "name": "Grass",
           "persistentUuid": "15a3b7f4-f78f-4898-9037-58d9fc07eab8",
-          "width": 444,
-          "x": 321,
-          "y": 18,
+          "width": 1160,
+          "x": -395,
+          "y": -450,
           "zOrder": -200,
           "numberProperties": [],
           "stringProperties": [],
@@ -2213,13 +2291,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 160,
+          "depth": 1,
+          "height": 915,
           "layer": "",
           "name": "Water1",
           "persistentUuid": "fb607f81-0e83-43a2-94c2-3c67a797f7d3",
-          "width": 432,
-          "x": 337,
-          "y": 417,
+          "width": 1309,
+          "x": -543,
+          "y": 421,
           "zOrder": -10000,
           "numberProperties": [],
           "stringProperties": [],
@@ -2348,11 +2427,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 144,
+          "depth": 1,
+          "height": 890,
           "layer": "",
           "name": "Water1",
           "persistentUuid": "22e45ac6-7fa4-4192-b80b-2627af6c404c",
-          "width": 176,
+          "width": 852,
           "x": 769,
           "y": 321,
           "zOrder": -10000,
@@ -2363,13 +2443,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 264,
+          "depth": 1,
+          "height": 631,
           "layer": "",
           "name": "Grass",
           "persistentUuid": "753fd074-6b60-4410-b871-257718ecbb5a",
-          "width": 224,
-          "x": 753,
-          "y": 49,
+          "width": 1004,
+          "x": 657,
+          "y": -284,
           "zOrder": -5200,
           "numberProperties": [],
           "stringProperties": [],
@@ -3599,6 +3680,115 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "d8b5cc8d-eeec-4041-b211-8572693be236",
+          "width": 1297,
+          "x": -16,
+          "y": -17,
+          "zOrder": 2026,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 739,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "49b88198-7165-4f60-a189-1cb0f2ce9363",
+          "width": 16,
+          "x": -16,
+          "y": -1,
+          "zOrder": 2027,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "b74bb440-7c77-4222-a96b-9a9af59d022d",
+          "width": 1296,
+          "x": -2,
+          "y": 722,
+          "zOrder": 2028,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 737,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "e0911ee2-194d-46f4-9f21-3325c5a9d918",
+          "width": 16,
+          "x": 1279,
+          "y": -15,
+          "zOrder": 2029,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "f3a559a8-ca52-41d9-bda0-5e42c12b30ea",
+          "width": 0,
+          "x": 906,
+          "y": 244,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "ec6295d4-bcfc-4da2-9281-0ddbbb148ee7",
+          "width": 0,
+          "x": 673,
+          "y": 340,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "e3650db3-1ebb-412e-bc92-c4edcaa7e11e",
+          "width": 0,
+          "x": 231,
+          "y": 221,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3614,6 +3804,12 @@
               "name": "Build_House",
               "type": "boolean",
               "value": true
+            },
+            {
+              "folded": true,
+              "name": "menu_on",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -6504,6 +6700,84 @@
             "align": "left",
             "wordWrap": true
           }
+        },
+        {
+          "assetStoreId": "",
+          "height": 100,
+          "name": "NewTiledSprite2",
+          "texture": "Screenshot 2023-11-30 at 11.46.42 AM.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 100,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "menu_on",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Screenshot 2024-03-18 at 9.32.29 PM.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 876,
+                            "y": 0
+                          },
+                          {
+                            "x": 876,
+                            "y": 610
+                          },
+                          {
+                            "x": 0,
+                            "y": 610
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6647,6 +6921,9 @@
             "objectName": "starting_message"
           },
           {
+            "objectName": "NewTiledSprite2"
+          },
+          {
             "objectName": "GreenHouse1"
           },
           {
@@ -6654,6 +6931,9 @@
           },
           {
             "objectName": "HouseRep"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -7119,6 +7399,110 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "m"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "menu_on",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "NewSprite",
+                "500",
+                "165",
+                "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "NewSprite",
+                "Resizable",
+                "350",
+                "250"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "menu_on",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "menu_on",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "menu_on",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "NewSprite",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -7411,7 +7795,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Shopping",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11243,7 +11626,7 @@
               },
               "parameters": [
                 "",
-                "\"control screen\"",
+                "\"story1\"",
                 ""
               ]
             }
@@ -11414,7 +11797,7 @@
           "persistentUuid": "68b2c834-5200-4caa-bbac-8e470eb20576",
           "width": 1378,
           "x": -42,
-          "y": -82,
+          "y": -85,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -11676,6 +12059,21 @@
           "x": 1088,
           "y": 677,
           "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewText11",
+          "persistentUuid": "2865cbec-7f2f-4384-accd-009f4a599ce8",
+          "width": 0,
+          "x": 498,
+          "y": 639,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16412,6 +16810,47 @@
             "characterSize": 20,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText11",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Press M to comeback to this page",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Press M to comeback to this page",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -16479,6 +16918,9 @@
           },
           {
             "objectName": "NewText10"
+          },
+          {
+            "objectName": "NewText11"
           }
         ]
       },
@@ -16504,6 +16946,1007 @@
               "parameters": [
                 "",
                 "\"Overworld\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "story1",
+      "name": "story1",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 851,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "e4bb4f43-bd45-4868-8469-2e7ea7bb41a1",
+          "width": 509,
+          "x": 393,
+          "y": -40,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1007,
+          "layer": "",
+          "name": "PurpleSpace",
+          "persistentUuid": "e12005cd-cc3c-4519-9ad0-ad5545b7f145",
+          "width": 1443,
+          "x": -73,
+          "y": -158,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "4464c147-fbc3-426c-85fb-8f79fa5236d4",
+          "width": 0,
+          "x": 1084,
+          "y": 668,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "height": 10,
+          "name": "NewTiledSprite",
+          "texture": "Free Range Farm Adventures_ Intro Story-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 10,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite2",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 200,
+              "name": "Pathfinding",
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 100,
+          "height": 32,
+          "leftMargin": 100,
+          "name": "NewPanelSprite",
+          "rightMargin": 100,
+          "texture": "Free Range Farm Adventures_ Intro Story0.png",
+          "tiled": true,
+          "topMargin": 100,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Free Range Farm Adventures_ Intro Story1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1122,
+                            "y": 0
+                          },
+                          {
+                            "x": 1122,
+                            "y": 1452
+                          },
+                          {
+                            "x": 0,
+                            "y": 1452
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "0517471270cd0d788f0897173ef026fe98b68589d2a167a983408023fdfaad04",
+          "height": 128,
+          "name": "PurpleSpace",
+          "texture": "tiled_purple space.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Press N to continue",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Press N to continue",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "NewPanelSprite"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewTiledSprite2"
+          },
+          {
+            "objectName": "PurpleSpace"
+          },
+          {
+            "objectName": "NewText"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "n"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"story2\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "story2",
+      "name": "story2",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 975,
+          "layer": "",
+          "name": "PurpleSpace",
+          "persistentUuid": "10f53bde-28b8-4ef6-93ae-9eda3242ebba",
+          "width": 1476,
+          "x": -93,
+          "y": -93,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 946,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "29ba4919-4c96-40f6-bd20-8fc8b4096b36",
+          "width": 616,
+          "x": 334,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "767dfff0-2acd-43c8-bb94-a2d32687920c",
+          "width": 0,
+          "x": 1093,
+          "y": 684,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "0517471270cd0d788f0897173ef026fe98b68589d2a167a983408023fdfaad04",
+          "height": 128,
+          "name": "PurpleSpace",
+          "texture": "tiled_purple space.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Free Range Farm Adventures_ Intro Story-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1122,
+                            "y": 0
+                          },
+                          {
+                            "x": 1122,
+                            "y": 1452
+                          },
+                          {
+                            "x": 0,
+                            "y": 1452
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Press N to continue",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Press N to continue",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "PurpleSpace"
+          },
+          {
+            "objectName": "NewText"
+          },
+          {
+            "objectName": "NewSprite"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "n"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"story3\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "story3",
+      "name": "story3",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 884,
+          "layer": "",
+          "name": "PurpleSpace",
+          "persistentUuid": "fb173924-298e-422e-9b5d-709ec9eaf079",
+          "width": 1400,
+          "x": -99,
+          "y": -86,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "1fbe5ac8-d2a8-4ce7-9c69-580ac6b32ef4",
+          "width": 0,
+          "x": 46,
+          "y": -29,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "21f35de3-b3b0-4fbf-aeba-0e13edfb2fb1",
+          "width": 108,
+          "x": 1186,
+          "y": 668,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "0517471270cd0d788f0897173ef026fe98b68589d2a167a983408023fdfaad04",
+          "height": 128,
+          "name": "PurpleSpace",
+          "texture": "tiled_purple space.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Free Range Farm Adventures_ Intro Story-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1122,
+                            "y": 0
+                          },
+                          {
+                            "x": 1122,
+                            "y": 1452
+                          },
+                          {
+                            "x": 0,
+                            "y": 1452
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "press N to continue",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "press N to continue",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "PurpleSpace"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewText"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "n"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"control screen\"",
                 ""
               ]
             }
